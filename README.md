@@ -9,7 +9,7 @@ Here are the guidelines for this exercise:
 -   1) Create a new instance of Wordpress and install the Sage Wordpress Starter theme included in the resources folder.
 -   2) If needed, utilize the theme documentation: https://roots.io/sage/docs/theme-installation/.
 -   3) Build and design the site navigation utilizing an ajax request with the included json file.
--   4) Build and design one post aggregator using the WP Rest API found here - https://www.prephoops.com/wp-json/wp/v2/posts
+-   4) Build and design one post aggregator using content from the WP Rest API found here - https://www.prephoops.com/wp-json/wp/v2/posts
 -   5) Place the javascript for both of the above tasks in /resources/assets/scripts/routes/common.js.
 -   6) In the resources/views folder, create a new front-page.blade.php file and place the necessary HTML there.
 -   7) Aggregator must include 3-5 posts and each post must have the title, featured image, and a link to the post.
