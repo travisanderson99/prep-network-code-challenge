@@ -38,7 +38,6 @@ At a high level, the navigation will have two main states
 
 ```
 git clone https://github.com/travisanderson99/prep-network-code-challenge.git
-
 ```
 
 ## Design Specifications
