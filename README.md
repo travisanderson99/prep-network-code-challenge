@@ -37,12 +37,8 @@ At a high level, the navigation will have two main states
 ## Get Started
 
 ```
-git clone git@github.com:JeanHules/prephoops-frontend-challenge.git
-cd prephoops-frontend-challenge/react-starter-template
-cd app
-yarn
-yarn dev
-The url will show in terminal for where you can view the site.
+git clone https://github.com/travisanderson99/prep-network-code-challenge.git
+
 ```
 
 ## Design Specifications
