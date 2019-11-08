@@ -11,7 +11,7 @@ Here are the guidelines for this exercise:
 -   3) Build and design the site navigation utilizing an ajax request with the included json file.
 -   4) Build and design one post aggregator using content from the WP Rest API found here - https://www.prephoops.com/wp-json/wp/v2/posts
 -   5) Place the javascript for both of the above tasks in /resources/assets/scripts/routes/common.js.
--   6) In the resources/views folder, create a new front-page.blade.php file and place the necessary HTML there.
+-   6) In the resources/views folder, open front-page.blade.php and place the necessary HTML there.
 -   7) Aggregator must include 3-5 posts and each post must have the title, featured image, and a link to the post.
 -   8) Chrome compliance is all that's required, all functions and features available in Chrome are in play.
 -   9) Nav must be responsive.
