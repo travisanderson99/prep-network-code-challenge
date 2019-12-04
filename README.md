@@ -7,15 +7,17 @@ This exercise will have the candidate build a responsive site navigation driven 
 Here are the guidelines for this exercise:
 
 -   1) Create a new instance of Wordpress and install the Sage Wordpress Starter theme included in the resources folder.
--   2) If needed, utilize the theme documentation: https://roots.io/sage/docs/theme-installation/.
--   3) Build and design the site navigation utilizing an ajax request with the included json file.
--   4) Build and design one post aggregator using content from the WP Rest API found here - https://www.prephoops.com/wp-json/wp/v2/posts
--   5) Place the javascript for both of the above tasks in /resources/assets/scripts/routes/common.js.
--   6) In the resources/views folder, open front-page.blade.php and place the necessary HTML there.
--   7) Aggregator must include 3-5 posts and each post must have the title, featured image, and a link to the post.
--   8) Chrome compliance is all that's required, all functions and features available in Chrome are in play.
--   9) Nav must be responsive.
--   10) Complete the challenge and return the updated theme files that include the functionality for the menu and post aggregator.
+-   2) Once installed, navigate to the Sage theme directory and run 'composer install'.
+-   3) After composer has finished, run 'yarn' to install all the necessary dependencies.
+-   4) If needed, utilize the theme documentation installation instructions: https://roots.io/sage/docs/theme-installation/.
+-   5) Build and design the site navigation utilizing an ajax request with the included nav.json file found at /resources/assets/nav.json.
+-   6) Build and design one post aggregator using content from the WP Rest API found here - https://www.prephoops.com/wp-json/wp/v2/posts
+-   7) Place the javascript for both of the above tasks in /resources/assets/scripts/routes/common.js.
+-   8) In the resources/views folder, open front-page.blade.php and place the necessary HTML there.
+-   9) Aggregator must include 3-5 posts and each post must have the title, featured image, and a link to the post.
+-   10) Chrome compliance is all that's required, all functions and features available in Chrome are in play.
+-   11) Nav must be responsive.
+-   12) Complete the challenge and return the updated theme files that include the functionality for the menu and post aggregator.
 
 At a high level, the navigation will have two main states
 
@@ -30,9 +32,9 @@ At a high level, the navigation will have two main states
 
 -   Mockup - Illustrator file describing how the nav should behave can be found in the resources folder
 
-## API
+## Data
 
--   There is a folder called "data" which contains a JSON file for you. Use it however you'd like, but make sure the content of the site's nav comes from the JSON and is not hardcoded.
+-   Ensure that the content of the site's nav comes from the nav.json file and is not hardcoded.
 
 ## Get Started
 
